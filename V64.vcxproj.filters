@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="v64">
+      <UniqueIdentifier>{a7950c4c-5fd5-40b0-9c05-25e45df3915f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="v64\graphics">
+      <UniqueIdentifier>{a3d6687b-687c-471f-a40c-cbc2a9116ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="v64\tools">
+      <UniqueIdentifier>{5ab0610e-fc39-452e-90be-058024b90608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="v64\physics">
+      <UniqueIdentifier>{896add15-5baf-41d7-9919-9d850d1a2dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="v64\game">
+      <UniqueIdentifier>{98a2d561-1987-4701-82b3-500e3aedfec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="v64\audio">
+      <UniqueIdentifier>{68e56744-4bf2-494f-96d3-a81ca61f717a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="v64\game\scene">
+      <UniqueIdentifier>{a4855051-5d98-4937-9ce5-ad5a5edecf80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="v64\tools\events">
+      <UniqueIdentifier>{245b0daf-eb51-4818-8059-6c6f6354eb03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="v64\tools\input">
+      <UniqueIdentifier>{ef5fcfa4-472b-40ad-9af9-14b13b654f28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="v64\tools\logging">
+      <UniqueIdentifier>{40303051-3c04-43bc-be4f-8fa6c5339809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="v64\tools\resource">
+      <UniqueIdentifier>{e8c7d77a-c836-4628-b5ef-86ce14cc3230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="v64\tools\work">
+      <UniqueIdentifier>{7b1a094e-457a-4ba4-b19c-964b0794c42c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pacman">
+      <UniqueIdentifier>{f69bfe7f-3cb4-490c-8b18-060065b35523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pacman\scenes">
+      <UniqueIdentifier>{8ce0d5e2-6947-4cbe-aba1-124759b96598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pacman\scenes\main">
+      <UniqueIdentifier>{92d1a590-eba5-4c19-a3cb-25ae48cffde0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pacman\scenes\main\pacman">
+      <UniqueIdentifier>{fd57e5f6-d4d9-4d21-b19e-4f7670757151}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\v64\graphics\texture.cpp">
+      <Filter>v64\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\v64\graphics\window.cpp">
+      <Filter>v64\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\v64\graphics\drawable.cpp">
+      <Filter>v64\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\v64\graphics\renderer.cpp">
+      <Filter>v64\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\v64\game\scene\scene.cpp">
+      <Filter>v64\game\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\v64\game\gameObject.cpp">
+      <Filter>v64\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\v64\game\game.cpp">
+      <Filter>v64\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\v64\tools\events\messenger.cpp">
+      <Filter>v64\tools\events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\v64\tools\events\callbackBucket.cpp">
+      <Filter>v64\tools\events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\v64\tools\events\callbackData.cpp">
+      <Filter>v64\tools\events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\v64\tools\events\message.cpp">
+      <Filter>v64\tools\events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\v64\tools\input\input.cpp">
+      <Filter>v64\tools\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\v64\tools\logging\logger.cpp">
+      <Filter>v64\tools\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\v64\tools\resource\resourceManager.cpp">
+      <Filter>v64\tools\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\v64\tools\work\workManager.cpp">
+      <Filter>v64\tools\work</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\main\mainScene.cpp">
+      <Filter>pacman\scenes\main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\main\pacman\pacman.cpp">
+      <Filter>pacman\scenes\main\pacman</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>pacman</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\v64\graphics\texture.h">
+      <Filter>v64\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\v64\graphics\window.h">
+      <Filter>v64\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\v64\graphics\drawable.h">
+      <Filter>v64\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\v64\graphics\renderer.h">
+      <Filter>v64\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\v64\game\scene\scene.h">
+      <Filter>v64\game\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\v64\game\gameObject.h">
+      <Filter>v64\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\v64\game\game.h">
+      <Filter>v64\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\v64\tools\events\messaging.h">
+      <Filter>v64\tools\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\v64\tools\events\messenger.h">
+      <Filter>v64\tools\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\v64\tools\events\callbackBucket.h">
+      <Filter>v64\tools\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\v64\tools\events\callbackData.h">
+      <Filter>v64\tools\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\v64\tools\events\message.h">
+      <Filter>v64\tools\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\v64\tools\input\input.h">
+      <Filter>v64\tools\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\v64\tools\logging\logger.h">
+      <Filter>v64\tools\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="src\v64\tools\resource\resourceManager.h">
+      <Filter>v64\tools\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="src\v64\tools\work\workManager.h">
+      <Filter>v64\tools\work</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\main\mainScene.h">
+      <Filter>pacman\scenes\main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\main\pacman\pacman.h">
+      <Filter>pacman\scenes\main\pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="src\v64\v64.h">
+      <Filter>v64</Filter>
+    </ClInclude>
+    <ClInclude Include="src\v64\game\incl.h">
+      <Filter>v64\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\v64\graphics\incl.h">
+      <Filter>v64\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\v64\tools\events\incl.h">
+      <Filter>v64\tools\events</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
